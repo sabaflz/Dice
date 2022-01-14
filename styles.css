@@ -1,0 +1,48 @@
+body {
+  background-color: #DDDDDD;
+  font-family: 'Montserrat', sans-serif;
+  margin: 3%;
+  text-align: center;
+}
+
+.title , .playerButton{
+  color: #a60c40;
+}
+
+.diceBox {
+  margin: 3%;
+}
+
+.playerButton {
+  background: #580220;
+  background-image: -webkit-linear-gradient(top, #580220, #A60C40);
+  background-image: -moz-linear-gradient(top, #580220, #A60C40);
+  background-image: -ms-linear-gradient(top, #580220, #A60C40);
+  background-image: -o-linear-gradient(top, #580220, #A60C40);
+  background-image: linear-gradient(to bottom, #580220, #A60C40);
+  -webkit-border-radius: 10;
+  -moz-border-radius: 10;
+  border-radius: 10px;
+  color: #ffffff;
+  padding: 10px 20px 10px 20px;
+  margin: 10%;
+}
+
+.playerButton:hover{
+  background: #a60c40;
+  background-image: -webkit-linear-gradient(top, #a60c40, #ee115b);
+  background-image: -moz-linear-gradient(top, #a60c40, #ee115b);
+  background-image: -ms-linear-gradient(top, #a60c40, #ee115b);
+  background-image: -o-linear-gradient(top, #a60c40, #ee115b);
+  background-image: linear-gradient(to bottom, #a60c40, #ee115b);
+  color: #ffffff;
+}
+
+.dice {
+  height: 350px;
+}
+
+footer {
+  color: #b3b3b3;
+  margin: 5% auto auto;
+}
